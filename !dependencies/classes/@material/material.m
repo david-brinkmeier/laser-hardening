@@ -11,7 +11,7 @@ classdef material
         tCrit_a             (1,1) double % e.g. hardening temperature
         tCrit_b             (1,1) double % placeholder for 2nd temp of interest
         tMelt               (1,1) double % melt temperature
-        critCoolingRate     (1,1) double
+        critCoolingRate     (1,1) double % e.g. cirtical cooling rate for austenite -> martensite; typical tempered steel values around -200 K/s
     end
     
     properties (SetAccess = protected)
@@ -20,7 +20,7 @@ classdef material
     
     properties (Dependent)
         kappa               (1,1) double % thermal diffusivity [m²/s]
-        tMelted             (1,1) double % tMelt + hs / cp --> beyond this temperature / energy actual melt is expected
+        tMelted             (1,1) double % tMelt + hs / cp --> beyond this temperature (energy) actual melt is expected
     end
     
     methods

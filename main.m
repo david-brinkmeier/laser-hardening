@@ -82,7 +82,7 @@ hsim.heatDistrib.type = 'tophat'; % round tophat
 % hsim.heatDistrib.width = hsim.heatDistrib.resolutionXY*85; % rectangular
 % hsim.heatDistrib.height = hsim.heatDistrib.resolutionXY*45; % rectangular
 hsim.heatDistrib.radius = 1000/2*1e-6; % tophat, ring, brightline r1
-% hsim.heatDistrib.radius2 = 950/2*1e-6; % brightline r2
+% hsim.heatDistrib.radius2 = 600/2*1e-6; % brightline r2
 % hsim.heatDistrib.brightL_relPwr = 1.5; % brightline relative power distribution
 
 % heat is always spread out over some gaussian width, gaussian_w0 = 0 means actual point source
