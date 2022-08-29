@@ -1,4 +1,4 @@
-# Laser hardening (analytical)
+# Laser Hardening / Heat Conduction Welding
 
 ![](doc/1.png?raw=true)
 
