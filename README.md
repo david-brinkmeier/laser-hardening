@@ -3,7 +3,7 @@
 ![](doc/1.png?raw=true)
 
 ## Overview
-- This code basically implements [eq. (6) and eq. (5)][ClineAnthony] derived by Cline and Anthony.
+- This code basically implements [eq. (6) and eq. (5)][ClineAnthony] derived by Cline and Anthony, and uses the same math to numerically adapt the solution to arbitrary heat source geometries in an efficient way.
 - Please note that there are errors in eq. (6), the correct version can be found in [Conduction of Heat in Solids, p. 267][CarslawJaeger].
 - Please also note that the equations are somewhat confusing when comparing the literature, because the authors use different definitions.
 - The relevant equations are implemented in methods getPTKernel and getGAUSSKernel of class [heatSim](/!dependencies/classes/@heatSim/heatSim.m).
