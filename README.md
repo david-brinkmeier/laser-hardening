@@ -1,6 +1,6 @@
 # Laser hardening (analytical)
 
-![](docs/1.png?raw=true)
+![](doc/1.png?raw=true)
 
 ## Overview
 - This code basically implements [eq. (6) and eq. (5)][ClineAnthony] derived by Cline and Anthony.
@@ -28,11 +28,11 @@
 - The setup is done in script [main.m](main.m).
 - Interaction with the results is implemented in a rudimentary way using linked figures with some interactivity using the mouse and left/right mouse button in the XY temperature graph.
 
-![](docs/2.png?raw=true)
+![](doc/2.png?raw=true)
 
 - This is what a custom / user-specified intensity distribution could look like.
 
-![](docs/3.png?raw=true)
+![](doc/3.png?raw=true)
 
 ## Disclaimer
 
