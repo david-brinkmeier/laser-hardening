@@ -8,10 +8,10 @@ classdef material
         hs                  (1,1) double % melt enthalpy in J/kg
         
         absorptivity        (1,1) double % laser absorptivity - 0 to 1
-        tCrit_a             (1,1) double % e.g. hardening temperature
+        tCrit_a             (1,1) double % e.g. hardening threshold temperature (austenitization temperature)
         tCrit_b             (1,1) double % placeholder for 2nd temp of interest
         tMelt               (1,1) double % melt temperature
-        critCoolingRate     (1,1) double % e.g. cirtical cooling rate for austenite -> martensite; typical tempered steel values around -200 K/s
+        critCoolingRate     (1,1) double % e.g. critical cooling rate for austenite -> martensite; typical tempered steel values around -200 K/s
     end
     
     properties (SetAccess = protected)
