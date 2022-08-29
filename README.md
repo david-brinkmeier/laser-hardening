@@ -10,7 +10,7 @@
 - The formulation is adapted for efficient numerical implementation.
 - Re-calculations are only performed when necessary, which is tracked by using unique identifiers for the input variables of the simulation.
 - Example: If material and intensity distribution is not changed, changing the laser power does not require re-calculation and a linearly scaled version of the previous temperature field can be used.
-- Gaussian spread / diameter / radius is based on the ISO11146 D4\Sigma definition for laser beams.
+- Gaussian spread / diameter / radius is based on the ISO11146 D4σ definition for laser beams.
 - You can specify custom materials.
 - You can specify various pre-implemented heat source geometries as well as user defined heat sources.
 
